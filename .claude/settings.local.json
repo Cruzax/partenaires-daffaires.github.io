@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/assets/images' '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/assets/screenshots' '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/css' '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/js')",
+      "Bash(mv '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/Logo.png' '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/assets/images/Logo.png')",
+      "Bash(mv '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/style.css' '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/css/style.css')",
+      "Bash(mv '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/main.js' '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/js/main.js')",
+      "Bash(mv '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/Capture d'\\\\''écran 2026-03-30 195905.png' '/c/Users/benja/OneDrive/Bureau/Club d'\\\\''affaires/assets/screenshots/Capture d'\\\\''écran 2026-03-30 195905.png')",
+      "Bash(code C:\\\\Users\\\\benja\\\\OneDrive\\\\Bureau\\\\Club d'affaires *)"
+    ]
+  }
+}

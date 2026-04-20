@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Partenaires d'affaires — Besançon & Doubs</title>
+  <meta name="description" content="Le réseau des entrepreneurs de Besançon et du Doubs. Réunions mensuelles, afterworks, synergies locales.">
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Styles personnalisés -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════════ -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/Logo-removebg-preview.png" alt="Club Partenaires d'affaires">
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="club.html">Le Club</a></li>
+          <li class="nav-item"><a class="nav-link" href="membres.html">Membres</a></li>
+          <li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn-gold" href="contact.html"><span>Rejoindre le club</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ════════════════════════════════════════════════════════════
+       HÉROS — Fond CSS (orbs dorés + grille géométrique)
+  ════════════════════════════════════════════════════════════ -->
+  <section class="hero-section ready">
+    <!-- Décoration CSS pure : orbs et grille -->
+    <div class="hero-bg-css" aria-hidden="true">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+      <div class="hero-grid"></div>
+      <!-- Lignes diagonales décoratives -->
+      <div class="hero-line hero-line-1"></div>
+      <div class="hero-line hero-line-2"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="row align-items-center g-5">
+
+        <!-- Texte -->
+        <div class="col-lg-7">
+          <!-- Eyebrow -->
+          <p class="hero-eyebrow">Besançon · Doubs · Franche-Comté</p>
+
+          <!-- Titre principal -->
+          <h1 class="hero-title">
+            Plus que<br>
+            du <em>business.</em>
+          </h1>
+
+          <!-- Sous-titre -->
+          <p class="hero-subtitle">
+            Le réseau des entrepreneurs de Besançon et du Doubs.
+            Des rencontres authentiques, des partenariats durables,
+            une communauté soudée.
+          </p>
+
+          <!-- CTAs -->
+          <div class="d-flex flex-wrap gap-3 hero-ctas">
+            <a class="btn-gold" href="contact.html">
+              <span>Rejoindre le club</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+            <a class="btn-outline-gold" href="club.html">
+              Découvrir le club
+            </a>
+          </div>
+        </div>
+
+        <!-- Photo + badge -->
+        <div class="col-lg-5">
+          <div class="group-photo-wrap">
+            <img
+              src="assets/screenshots/Capture d'écran 2026-03-30 195905.png"
+              alt="Les membres du Club Partenaires d'affaires réunis à Besançon"
+              class="group-photo-img">
+            <div class="group-photo-badge">
+              <span class="stat-number" style="font-size:2rem;" data-count="14" data-suffix="+">14+</span>
+              <span style="font-size:0.65rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); display:block; margin-top:0.15rem;">Membres</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Indicateur de défilement -->
+    <div class="scroll-indicator">
+      <span>Découvrir</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════════
+       SECTION 01 — Nos 3 valeurs
+  ════════════════════════════════════════════════════════════ -->
+  <section class="bg-accent" style="padding-top: 4rem;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-label">Ce qui nous rassemble</span>
+        <h2 class="reveal">Trois piliers,<br><em>une vision commune</em></h2>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Valeur 1 : Réseau -->
+        <div class="col-md-4 reveal reveal-delay-1">
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="bi bi-people-fill"></i>
+            </div>
+            <h3>Réseau</h3>
+            <p class="text-muted-custom mt-2 mb-0">
+              Un cercle de confiance soigneusement sélectionné pour la qualité
+              de ses membres et la richesse de ses échanges. Ici, on se connaît vraiment.
+            </p>
+          </div>
+        </div>
+
+        <!-- Valeur 2 : Opportunités -->
+        <div class="col-md-4 reveal reveal-delay-2">
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="bi bi-lightning-charge-fill"></i>
+            </div>
+            <h3>Opportunités</h3>
+            <p class="text-muted-custom mt-2 mb-0">
+              Des synergies concrètes, des recommandations et des partenariats
+              durables au service de la croissance de chaque membre.
+            </p>
+          </div>
+        </div>
+
+        <!-- Valeur 3 : Convivialité -->
+        <div class="col-md-4 reveal reveal-delay-3">
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="bi bi-heart-fill"></i>
+            </div>
+            <h3>Convivialité</h3>
+            <p class="text-muted-custom mt-2 mb-0">
+              Des rencontres humaines dans un cadre chaleureux, parce que
+              les meilleures affaires naissent toujours dans un climat de confiance
+              et de bonne humeur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════════
+       SECTION 02 — Prochains événements
+  ════════════════════════════════════════════════════════════ -->
+  <section class="bg-accent">
+    <div class="container">
+      <div class="row align-items-end mb-5">
+        <div class="col-lg-7">
+          <span class="section-label">Agenda</span>
+          <h2 class="reveal">Prochains <em>rendez-vous</em></h2>
+        </div>
+        <div class="col-lg-4 text-lg-end reveal reveal-delay-2">
+          <a href="actualites.html" class="btn-outline-gold">
+            Toutes les actualités
+          </a>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column gap-3">
+        <!-- Événement 1 -->
+        <a class="event-card reveal" href="actualites.html">
+          <div class="event-date-block">
+            <span class="event-day">22</span>
+            <span class="event-month">Mai</span>
+          </div>
+          <div>
+            <span class="event-tag">Réunion mensuelle</span>
+            <h4 class="mb-1" style="font-size:1.3rem;">Réunion de mai — Tour de table & Présentations</h4>
+            <p class="mb-0 text-muted-custom" style="font-size:0.85rem;">
+              <i class="bi bi-geo-alt me-1"></i>Espace Coworking Tempo, Besançon &nbsp;·&nbsp; 19h00
+            </p>
+          </div>
+        </a>
+
+        <!-- Événement 2 -->
+        <a class="event-card reveal reveal-delay-1" href="actualites.html">
+          <div class="event-date-block">
+            <span class="event-day">05</span>
+            <span class="event-month">Juin</span>
+          </div>
+          <div>
+            <span class="event-tag">Afterwork</span>
+            <h4 class="mb-1" style="font-size:1.3rem;">Afterwork Networking — Printemps</h4>
+            <p class="mb-0 text-muted-custom" style="font-size:0.85rem;">
+              <i class="bi bi-geo-alt me-1"></i>Bar l'Esquisse, Besançon &nbsp;·&nbsp; 18h30
+            </p>
+          </div>
+        </a>
+
+        <!-- Événement 3 -->
+        <a class="event-card reveal reveal-delay-2" href="actualites.html">
+          <div class="event-date-block">
+            <span class="event-day">17</span>
+            <span class="event-month">Juin</span>
+          </div>
+          <div>
+            <span class="event-tag">Petit-déjeuner</span>
+            <h4 class="mb-1" style="font-size:1.3rem;">Petit-déjeuner Partenaires — Spécial été</h4>
+            <p class="mb-0 text-muted-custom" style="font-size:0.85rem;">
+              <i class="bi bi-geo-alt me-1"></i>Hôtel Castan, Besançon &nbsp;·&nbsp; 8h30
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════════
+       SECTION 04 — Témoignages membres
+  ════════════════════════════════════════════════════════════ -->
+  <section>
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Ils en parlent</span>
+        <h2>La parole à <em>nos membres</em></h2>
+      </div>
+
+      <div class="row g-4">
+        <!-- Témoignage 1 — Sandrine Cabaud -->
+        <div class="col-md-4 reveal reveal-delay-1">
+          <div class="testimonial-card">
+            <span class="quote-mark">"</span>
+            <p style="font-size:0.95rem; color:rgba(245,245,245,0.8); line-height:1.8; margin-bottom:1.5rem;">
+              Rejoindre le Club a transformé ma façon de développer mon activité.
+              En six mois, j'ai conclu trois partenariats concrets grâce aux
+              rencontres mensuelles. Et surtout, je me suis fait de vrais amis
+              dans le monde des affaires.
+            </p>
+            <div>
+              <div style="font-family:'Playfair Display',serif; font-size:1.1rem; font-weight:500;">Sandrine Cabaud</div>
+              <div style="font-size:0.75rem; color:var(--gold);">Tradecom · Commerce</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Témoignage 2 — Simon Potiez -->
+        <div class="col-md-4 reveal reveal-delay-2">
+          <div class="testimonial-card">
+            <span class="quote-mark">"</span>
+            <p style="font-size:0.95rem; color:rgba(245,245,245,0.8); line-height:1.8; margin-bottom:1.5rem;">
+              Les réunions mensuelles sont devenues incontournables dans mon agenda.
+              On discute vraiment de sujets qui comptent : croissance, recrutement,
+              tendances locales. C'est un vrai gain de temps et d'intelligence collective.
+            </p>
+            <div>
+              <div style="font-family:'Playfair Display',serif; font-size:1.1rem; font-weight:500;">Simon Potiez</div>
+              <div style="font-size:0.75rem; color:var(--gold);">Accentcom · Communication</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Témoignage 3 — Audrey Martory -->
+        <div class="col-md-4 reveal reveal-delay-3">
+          <div class="testimonial-card">
+            <span class="quote-mark">"</span>
+            <p style="font-size:0.95rem; color:rgba(245,245,245,0.8); line-height:1.8; margin-bottom:1.5rem;">
+              Ce qui m'a séduit dès le début, c'est l'authenticité des échanges.
+              Pas de faux-semblants, pas de cartes de visite balancées à la volée.
+              Ici, on construit des relations qui durent, sur la confiance.
+            </p>
+            <div>
+              <div style="font-family:'Playfair Display',serif; font-size:1.1rem; font-weight:500;">Audrey Martory</div>
+              <div style="font-size:0.75rem; color:var(--gold);">Le Bureau Audrey · Services</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Branding -->
+        <div class="col-lg-4">
+          <div class="footer-logo">
+            <img src="assets/images/Logo-removebg-preview.png" alt="Club Partenaires d'affaires">
+          </div>
+          <p class="footer-desc">
+            Le réseau des entrepreneurs de Besançon et du Doubs. Un cercle
+            de confiance pour développer votre activité et vos partenariats locaux.
+          </p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="col-6 col-lg-2 offset-lg-1">
+          <span class="footer-heading">Navigation</span>
+          <a class="footer-link" href="index.html">Accueil</a>
+          <a class="footer-link" href="club.html">Le Club</a>
+          <a class="footer-link" href="membres.html">Membres</a>
+          <a class="footer-link" href="actualites.html">Actualités</a>
+          <a class="footer-link" href="contact.html">Contact</a>
+        </div>
+
+        <!-- Infos -->
+        <div class="col-6 col-lg-2">
+          <span class="footer-heading">Contact</span>
+          <span class="footer-link">Besançon, Doubs (25)</span>
+          <a class="footer-link" href="mailto:contact@clubpartenaires-bfc.fr">
+            contact@clubpartenaires-bfc.fr
+          </a>
+        </div>
+
+        <!-- Social -->
+        <div class="col-6 col-lg-2">
+          <span class="footer-heading">Suivez-nous</span>
+          <a class="footer-link" href="#">
+            <i class="bi bi-linkedin me-2"></i>LinkedIn
+          </a>
+          <a class="footer-link" href="#">
+            <i class="bi bi-instagram me-2"></i>Instagram
+          </a>
+        </div>
+      </div>
+
+      <!-- Bas de footer -->
+      <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <span>© 2026 Club Partenaires d'affaires · Besançon</span>
+        <span>Réseau entrepreneurial du Doubs</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
