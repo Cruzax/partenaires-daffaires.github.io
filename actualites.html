@@ -40,25 +40,89 @@
 
 
   <!-- ════════════════════════════════════════════════════════════
-       HÉROS — Page Actualités
+       SECTION — Chronique événements
   ════════════════════════════════════════════════════════════ -->
-  <div class="page-hero">
-    <div class="page-hero-bg" aria-hidden="true"></div>
-    <div class="page-hero-ghost" aria-hidden="true">Actu</div>
-    <div class="container page-hero-content">
-      <p class="hero-eyebrow">Nos dernières nouvelles</p>
-      <h1 class="page-hero-title">
-        Actualités<br><em style="color:var(--gold);">& Événements</em>
-      </h1>
-      <p class="page-hero-desc">
-        Rencontres, portraits de membres, compte-rendus et annonces :
-        suivez la vie du Club au quotidien.
-      </p>
+  <section style="padding:9rem 0 8rem;position:relative;overflow:hidden;">
+    <div class="hero-bg-css" aria-hidden="true">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-line hero-line-1"></div>
+      <div class="hero-line hero-line-2"></div>
     </div>
-  </div>
+    <div class="container" style="max-width:860px;position:relative;">
 
+      <span class="section-label" style="display:block;margin-bottom:1.25rem;">Nos dernières nouvelles</span>
+      <h1 style="font-family:'Playfair Display',serif;font-size:clamp(2.5rem,6vw,3.8rem);line-height:1.1;margin-bottom:3.5rem;">
+        Actualités <em style="color:var(--gold);">&amp; Événements</em>
+      </h1>
+      <div style="display:flex;align-items:center;gap:1.5rem;margin-bottom:5rem;">
+        <span class="section-label">Chronique</span>
+        <div class="gold-line" style="flex:1;"></div>
+      </div>
 
- 
+      <!-- Article 01 — Soirée Twingo -->
+      <article class="reveal" style="margin-bottom:6rem;">
+        <div style="display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:2rem;">
+          <span style="font-size:6rem;font-family:'Playfair Display',serif;color:rgba(201,168,76,0.1);line-height:0.85;font-weight:700;flex-shrink:0;user-select:none;">01</span>
+          <div>
+            <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.6rem;">
+              <span class="section-label">Événement</span>
+              <span style="font-size:0.75rem;color:var(--muted);letter-spacing:0.08em;text-transform:uppercase;">9 avril 2026</span>
+            </div>
+            <h2 style="font-family:'Playfair Display',serif;font-size:clamp(1.5rem,3.5vw,2.1rem);margin:0;line-height:1.2;">
+              Retour sur une <em style="color:var(--gold);">belle soirée</em>
+            </h2>
+          </div>
+        </div>
+        <p style="color:var(--muted);font-size:0.93rem;line-height:1.9;margin-bottom:2.5rem;padding-left:calc(6rem + 1.5rem);">
+          Le Club Partenaires d'Affaires s'est réuni le jeudi 9 avril pour un moment convivial et dynamique
+          à l'occasion du lancement de la toute nouvelle Twingo.
+          Un grand merci à <strong style="color:var(--white);">Renault Besançon – Autobernard</strong> pour son accueil
+          et ce temps d'échange de qualité entre entrepreneurs. Ce type d'événement permet à nos membres
+          de découvrir des acteurs locaux, de créer du lien et de développer leur réseau dans une ambiance
+          professionnelle et détendue.
+        </p>
+        <div style="border:1px solid rgba(201,168,76,0.2);overflow:hidden;">
+          <video controls preload="metadata" style="width:100%;display:block;background:#000;max-height:520px;object-fit:contain;">
+            <source src="assets/vid%C3%A9o%201.mp4" type="video/mp4">
+          </video>
+        </div>
+      </article>
+
+      <div class="gold-line" style="margin-bottom:6rem;"></div>
+
+      <!-- Article 02 — Déjeuner Callahan -->
+      <article class="reveal reveal-delay-1">
+        <div style="display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:2rem;">
+          <span style="font-size:6rem;font-family:'Playfair Display',serif;color:rgba(201,168,76,0.1);line-height:0.85;font-weight:700;flex-shrink:0;user-select:none;">02</span>
+          <div>
+            <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.6rem;">
+              <span class="section-label">Événement</span>
+              <span style="font-size:0.75rem;color:var(--muted);letter-spacing:0.08em;text-transform:uppercase;">23 avril 2026</span>
+            </div>
+            <h2 style="font-family:'Playfair Display',serif;font-size:clamp(1.5rem,3.5vw,2.1rem);margin:0;line-height:1.2;">
+              Déjeuner <em style="color:var(--gold);">Partenaires d'Affaires</em>
+            </h2>
+          </div>
+        </div>
+        <p style="color:var(--muted);font-size:0.93rem;line-height:1.9;margin-bottom:2.5rem;padding-left:calc(6rem + 1.5rem);">
+          Retour sur ce jeudi 23 avril, où une partie des membres du club s'est retrouvée pour un déjeuner
+          convivial au <strong style="color:var(--white);">Callahan à Besançon</strong>.
+          Ces moments réguliers sont essentiels pour entretenir les relations, échanger sur les activités de
+          chacun et faire émerger de nouvelles opportunités de collaboration dans un cadre chaleureux et informel.
+        </p>
+        <div style="border:1px solid rgba(201,168,76,0.2);overflow:hidden;">
+          <video controls preload="metadata" style="width:100%;display:block;background:#000;max-height:520px;object-fit:contain;">
+            <source src="assets/vid%C3%A9o%202%20.mp4" type="video/mp4">
+          </video>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
 
   <!-- ════════════════════════════════════════════════════════════
        FOOTER
